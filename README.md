@@ -2,7 +2,8 @@
 The practical test is to assess on analytical thinking, initiate appropriate steps for data processing and develop and validate machine learning algorithms.
 ## What is the test about?
 The data used in the test involves data from multiple chains of medical outlet. The dataset comes in two files provided by my lecturer, namely "train" and "test" set. The missing values are identified to be Missing Not At Random (MNAR). A classification algorithm is to be developed to classify the outlet type
-based on the "OutletSalesPerHour" column (label). 
+based on the "OutletSalesPerHour" column (label). You can view the documentation [here](https://sdtaylorsedu-my.sharepoint.com/:b:/g/personal/limjiajie06_sd_taylors_edu_my/EWMImn5-CNFOh7opQaZj6nQBVGrNkcs8PjfUtRs-HXVF9A?e=sgIlRv).
+##
 These are the highlight of the practical test:
 * Feature engineering is performed by combining both the train and test file and a new unique ID identifier is created from the combination of "OutletIdentifier" and "OutletLocation".
 * K-Nearest Neighbour model is used to impute the missing values in "OutletSize" column.
